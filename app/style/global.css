@@ -9,18 +9,7 @@
     --bs-light: #FFF9F9;
     --bs-dark: #05070A;
 }
-:root[data-bs-theme=dark] {
-    --bs-primary: #FF6149;
-    --bs-secondary: #e95a5a;
-    --bs-accent: #F2CF47;
-    --bs-gradient: linear-gradient(90deg, rgba(255,97,73,1) 23%, rgba(242,207,71,1) 100%);
-    --bs-light: #FFF9F9;
-    --bs-dark: #05070A;
-}
 
-a{
-    color: var(--bs-dark);
-}
 body, footer{
     background-color: var(--bs-secondary);
 opacity: 1;
@@ -37,10 +26,12 @@ h1, h2, h3, h4, h5{
 h1{
     line-height: 3rem;
 }
-
 p{
     font-family: 'Poppins', sans-serif;
     margin: 0;
+}
+a{
+    color: var(--bs-dark);
 }
 
 .container{
@@ -83,7 +74,6 @@ p{
     padding: 0.5rem 1rem;
     border-radius: 0.5rem;
 }
-
 .text-light{
     color: var(--bs-light);
 }
