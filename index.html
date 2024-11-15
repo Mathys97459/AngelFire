@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="fr" data-bs-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./app/style/global.css">
+    <title>World's Worst Website</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <!-- <img src="./app/public/img/logo.svg" alt="Logo" width="175"> -->
+                <h1 class="text-light ms-4">AngelFire</h1>
+            </a>
+        </div>
+    </nav>
+
+    <section class="container-sm banner">
+        <div class="text-center d-flex flex-column align-items-center gap-3 my-5">
+            <h2 class="fs-3 text-light d-none d-sm-block">Welcome to my website</h2>
+            <h1 class="text-light">WELCOME TO THE WORLD'S <span class="text-bg">WORST</span> WEBSITE !</h1>
+            <p class="text-light">This web was designed to graphically demonstrate the most common mistakes made by new
+                Web Page designers.
+            </p>
+        </div>
+        <div class="d-flex align-items-center justify-content-between gap-5 pt-5 my-5">
+            <div>
+                <h2 class="text-light">Where am I AND where are the links to other pages ?</h2>
+                <p class="my-4 text-light">An easy to use navigation structure is essential to any well designed
+                    website! Important
+                    information
+                    should never be more than 2 clicks away.</p>
+                <button type="button" class="btn btn-secondary">See advice</button>
+            </div>
+
+            <div class="ms-5 lg w-50 d-none d-lg-block">
+                <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module" defer></script> 
+
+                <dotlottie-player src="https://lottie.host/745b6e04-5a93-4fbd-9c67-b8128e713a10/CiCXRwIVTZ.lottie" background="transparent" speed="1" style="width: 400px; height: 400px;" loop autoplay loading="lazy"></dotlottie-player>
+            </div>
+        </div>
+    </section>
+
+    <section class="content container-fluid bg-light py-5">
+        <div class="container-sm w-100 d-flex flex-column flex-md-row gap-2 align-items-start mt-4 mb-5 pb-5">
+            <div class="card col-sm p-4 bg-light">
+                <h3 class="fs-6 mb-3">Backgrounds simple</h3>
+                <p>Keep your backgrounds simple. White or light colors usually work best. Your background should not
+                    compete with the content of the page for the users attention. If you would like to use a background
+                    picture, select a picture that uses muted colors or format your picture as a watermark. Select text
+                    colors which will contrast well with the background picture.</p>
+            </div>
+            <div class="card col-sm p-4 bg-light">
+                <h3 class="fs-6 mb-3">Distractions</h3>
+                <p>Constantly running animations can be distracting when used excessively. There should be no more than
+                    one animated object in your view at any time. Also in this category are excessive, large, flashing &
+                    obnoxious advertisements.</p>
+            </div>
+            <div class="card col-sm p-4 bg-light">
+                <h3 class="fs-6 mb-3">Difficult to read</h3>
+                <p>As you can see, this text is difficult to read. There needs to more contrast between the background
+                    color and the text color. Here's another example of a poor choice of a background/ text color and
+                    size.</p>
+            </div>
+            <div class="card col-sm p-4 bg-light">
+                <h3 class="fs-6 mb-3">Excessive advertisements</h3>
+                <p>Aggressive pop ups, banners, flash ads and other intrusive ads annoy your visitors, make your site
+                    difficult to use and bury your message in a sea of clutter.</p>
+            </div>
+        </div>
+
+        <div class="container container-sm bg-primary p-5 my-5">
+            <h3 class="fs-4 text-light">Enjoying the music ?</h3>
+            <p class="text-light my-4">Your website visitors probably won't enjoy it either. Usually, it is best to skip
+                the tunes, but if you
+                must add music, be sure you provide a way for them to turn it off!  Place the following HTML5 tag where
+                you want the music player to display:<br><br>
+                &lt;audio controls="" autoplay="" loop=""&gt; &lt;source src="soundfile path" type="audio/"type"> Your
+                browser does not support the audio element. &lt;/source&gt;<br><br>
+                Replace "soundfile path" with the path to your audio file. 'Type' specifies the MIME-type.
+                Enter the number of times it should run in the "loop" tag. If you leave it empty, it will run until the
+                visitor turns it off.  More on HTML5 Audio here.</p>
+            <audio controls=""  autoplay=""  loop="">
+                <source src="soundfile path" type="audio/" type"> Your browser does not support the audio element.
+                </source>
+        </div>
+
+        <div class="container-sm py-5 mb-5">
+            <h2>Advice</h2>
+            <div class="my-4 d-flex flex-column gap-4">
+                <div class="d-flex gap-3">
+                    <i class="fa-solid fa-desktop"></i>
+                    <div>
+                        <h4 class="fs-6">Unnecessary use of technology</h4>
+                        <p>Splash pages which require you sit through a long download and don't offer a 'skip intro'
+                            option. Especially torturous on a dial-up connection.</p>
+                    </div>
+                </div>
+                <div class="d-flex gap-3">
+                    <i class="fa-solid fa-xmark"></i>
+                    <div>
+                        <h4 class="fs-6">Fake error messages</h4>
+                        <p>One of my 'pet peeves' are the fake error messages that trick new computer users into
+                            clicking on an ad.*A real error message will not scroll up and down with the page. Your
+                            pointer will become a hyperlink 'hand' over fake error messages.</p>
+                    </div>
+                </div>
+                <div class="d-flex gap-3">
+                    <i class="fa-solid fa-book-open"></i>
+                    <div>
+                        <h4 class="fs-6">Spelling</h4>
+                        <p>Misspelled werds and impropr punktuation, make yur web look amaturish, and unfinishd. Awlays
+                            run a spel chek befor yu uplode!!!!!! :)</p>
+                    </div>
+                </div>
+                <div class="d-flex gap-3">
+                    <i class="fa-solid fa-arrows-to-eye"></i>
+                    <div>
+                        <h4 class="fs-6">Distractions</h4>
+                        <p>Enclosing blocks of text within borders breaks up the flow of the page and causes unnecessary
+                            distractions</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-sm d-flex align-items-center gap-4 mb-5 pb-4">
+            <div class="col-1 d-none d-md-block"></div>
+            <div class="col-3 d-none d-md-block">
+                <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module" defer></script> 
+
+                <dotlottie-player src="https://lottie.host/e38f4e70-c40e-4201-93e8-e448a1ee699e/Y1SJrvmuYg.lottie" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay loading="lazy"></dotlottie-player>
+            </div>
+            <div class="col-6 d-none d-md-block">
+                <h2>Search Engine Optimization (SEO)</h2>
+                <p>Art of increasing your website's ranking in major search engines. Remember 'Content is King' so
+                    include plenty of original, interesting content. Weave important keywords into your text and be sure
+                    to use descriptive image tags.</p>
+            </div>
+            <div class="d-block d-md-none w-100">
+                <h2>Search Engine Optimization (SEO)</h2>
+                <p>Art of increasing your website's ranking in major search engines. Remember 'Content is King' so
+                    include plenty of original, interesting content. Weave important keywords into your text and be sure
+                    to use descriptive image tags.</p>
+            </div>
+        </div>
+
+        <div class="container-sm py-5 mb-5">
+            <h2>Not to do</h2>
+            <div class="my-4 d-flex flex-column gap-4">
+                <div class="d-flex gap-3">
+                    <i class="fa-solid fa-arrow-left"></i>
+                    <div>
+                        <h4 class="fs-6">Orphan pages</h4>
+                        <p>Orphan pages provide no way back to the originating page. These can cause users to get
+                            'stuck'.</p>
+                    </div>
+                </div>
+                <div class="d-flex gap-3">
+                    <i class="fa-solid fa-xmark"></i>
+                    <div>
+                        <h4 class="fs-6">Hyperlinks</h4>
+                        <p>Hyperlinks that don't work is another problem with poorly designed websites. Click through
+                            all your links often and update them regularly.</p>
+                    </div>
+                </div>
+                <div class="d-flex gap-3">
+                    <i class="fa-solid fa-droplet"></i>
+                    <div>
+                        <h4 class="fs-6">Colors</h4>
+                        <p>Hyperlinks of unusual colors can cause confusion for new users.</p>
+                    </div>
+                </div>
+                <div class="d-flex gap-3">
+                    <i class="fa-solid fa-eye"></i>
+                    <div>
+                        <h4 class="fs-6">Not obvious</h4>
+                        <p>Hyperlinks which are overly long and don't tell the user where it goes or what it's about.
+                        </p>
+                        <a
+                            href="http://calendar.netscape.com/cobrand/netscape/serviceIndex.html?GXHC_GX_cst=fc7eb075024d6164">http://calendar.netscape.com/cobrand/netscape/serviceIndex.html?GXHC_GX_cst=fc7eb075024d6164</a>
+                    </div>
+                </div>
+                <div class="d-flex gap-3">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <div>
+                        <h4 class="fs-6">Wrong place</h4>
+                        <p>Hyperlinks that lead to the wrong place</p>
+                        <a
+                            href="https://earthquake.usgs.gov/earthquakes/map/#%7B%22feed%22:%221day_m25%22,%22search%22:null,%22sort%22:%22newest%22,%22basemap%22:%22grayscale%22,%22autoUpdate%22:true,%22restrictListToMap%22:true,%22timeZone%22:%22local%22,%22mapposition%22:%5B%5B-89.2963362321379,-137.8125%5D,%5B89.2963362321379,537.1875%5D%5D,%22overlays%22:%7B%22plates%22:true%7D,%22viewModes%22:%7B%22list%22:true,%22map%22:true,%22settings%22:false,%22help%22:false%7D%7D">Click
+                            here for local weather information !</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-sm d-flex flex-column gap-3 mb-5">
+            <div class="d-flex flex-column flex-md-row align-items-end gap-3">
+                <div class="container w-md-100 py-4 px-5 col-md-6 bg-primary">
+                    <h3 class="text-light">Other browsers & screen resolutions</h3>
+                    <p class="text-light">Internet Explorer may be the most widely used browser, but it is not the only
+                        one. Others include Chrome, Firefox, Safari and Opera to name a few. Different browsers may
+                        display your page very differently. Check your website in as many different browsers as
+                        possible. Check it in various screen resolutions. Using tables may help control the layout.
+                        Avoid components which only render properly in specific browsers.</p>
+                </div>
+                <div class="container w-md-100 py-4 px-5 col-md-6 bg-border">
+                    <h3>You can check out the code or Page Source</h3>
+                    <p> &lt;a href="https://www.angelfire.com"&lt;/a&gt;&lt;br&gt;<br/>for
+                        any website you visit. &lt;br&gt;<br/>Hypertext Markup Language (HTML)&lt;br&gt;<br/>is the programming
+                        language which tells your browser how and where&lt;br&gt;<br/>to display the page elements. You
+                        should learn some basic HTML&lt;br&gt;<br/>so you can find and fix problems with your
+                        website.&lt;br&gt;<br/>Here's some HTML tags for layout and design.&lt;/span&gt;
+                    </p>
+                </div>
+            </div>
+            <div class="d-flex flex-column flex-md-row align-items-start gap-3">
+                <div class="container w-md-100 py-4 px-5 col-md-6 bg-border">
+                    <h3>Outdated information</h3>
+                    <p>If your website contains timely information, you need to keep it updated regularly, or remove the
+                        old stuff like the article below.
+                        <br><br>
+                        Coast to coast fun as Y2K hits U.S.A.(CNN: 14-Mar-00)From the crowd jammed streets of Times
+                        Square to the beaches of Hawaii with fireworks, concerts and parties aplenty in between the
+                        United States celebrated the arrival of a new year, a new century and new millennium.
+                    </p>
+                </div>
+                <div class="container w-md-100 py-4 px-5 col-md-6 bg-primary">
+                    <h3 class="text-light">Download time</h3>
+                    <p class="text-light">One of the most important factors in your web design. Most web surfers will
+                        not wait for more than 10-15 seconds for your page to load before they move on. Use pictures
+                        that load quickly and thumbnails to link to large images. Avoid excessive scripts and widgets
+                        which increase your load time and offer little value to users.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-secondary text-light">
+        <div class="d-flex justify-content-evenly align-items-center py-5">
+            <div>
+                <h4>Follow Us</h4>
+                <div class="d-flex mb-4 gap-2">
+                    <a href="" class="fs-3"><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a>
+                    <a href="" class="fs-3"><i class="fa-brands fa-square-facebook" style="color: #ffffff;"></i></a>
+                    <a href="" class="fs-3"><i class="fa-brands fa-square-x-twitter" style="color: #ffffff;"></i></a>
+                </div>
+                <p><u>Privacy Policy</u></p>
+                <p><u>Legal notices</u></p>
+            </div>
+            <div>
+                <p>
+                    GIMP 2.8 Filters and Effects
+                    <br>
+                    A simple and visual guide
+                    <br>
+                    <br>Got Linux?
+                    <br>PortalView Live Desktop Wallpaper
+                    <br>Watch the World on Your Linux Desktop!
+                    <br>
+                    <br>Check Out My Blog:
+                    <br>Bits & Bytes: Technology Made Simple
+                </p>
+            </div>
+        </div>
+        <div class="text-center">
+            <p>Copyright &copy;
+                <script>document.write(new Date().getFullYear())</script> Angelfire All Rights Reserved
+            </p>
+        </div>
+    </footer>
+
+
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>r
+</body>
+
+</html>
